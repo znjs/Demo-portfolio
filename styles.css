@@ -144,3 +144,8 @@ footer ul {
 footer .footer-header {
     font-weight: 1000;
 }
+
+.techstack {
+    color: var(--primary-color);
+    font-weight: bold;
+}
