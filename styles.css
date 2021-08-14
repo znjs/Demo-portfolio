@@ -17,11 +17,14 @@ body {
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin: 0.5rem auto;
 }
 
+
 hr {
-    margin: 2rem 0;
+    margin: 2rem auto;
+    width: 80%;
+
 }
 
 /* links */
@@ -125,7 +128,9 @@ section h3 {
 /* footer */
 
 footer {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+
     padding: 2rem 0;
     text-align: center;
     color: white;
@@ -148,4 +153,9 @@ footer .footer-header {
 .techstack {
     color: var(--primary-color);
     font-weight: bold;
+}
+
+.blog-img {
+    max-width: 600px;
+    ;
 }
