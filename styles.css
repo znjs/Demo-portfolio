@@ -159,3 +159,17 @@ footer .footer-header {
     max-width: 600px;
     ;
 }
+
+@media (max-width: 600px) {
+
+    .hero-image {
+        max-width: 400px;
+
+    }
+
+    .blog-img {
+        max-width: 400px;
+
+    }
+
+}
