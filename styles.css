@@ -1,175 +1,177 @@
 body {
-    margin: 0;
-    font-family: 'Merriweather', serif;
+  margin: 0;
+  font-family: "Merriweather", serif;
 }
 
 :root {
-    --primary-color: #EF4444;
-    --dark-grey: #9C9CA1;
-    --off-white: #F3F4F6;
+  --primary-color: #ef4444;
+  --dark-grey: #9c9ca1;
+  --off-white: #f3f4f6;
 }
 
 /* Primary color #6C63FF */
 .container {
-    padding-right: 1rem;
-    padding-left: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .container-center {
-    max-width: 600px;
-    margin: 0.5rem auto;
+  max-width: 600px;
+  margin: 0.5rem auto;
 }
 
-
 hr {
-    margin: 2rem auto;
-    width: 80%;
-
+  margin: 2rem auto;
+  width: 80%;
 }
 
 /* links */
 .link {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
 }
 
 .link-primary {
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 0.5rem;
-
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  margin-right: 4px;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color)
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
 }
 
 /* lists */
 
 .list-non-bullet {
-    list-style: none;
+  list-style: none;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0 0.5rem;
+  display: inline;
+  padding: 0 0.5rem;
 }
 
 /* nav */
 
 .navigation {
-    /* background-color: var(--primary-color); */
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-    padding: 1rem 0 0.3rem 0;
-    /* border-bottom-left-radius: 1rem; */
-    border-bottom-right-radius: 1rem;
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  padding: 1rem 0 0.3rem 0;
+  /* border-bottom-left-radius: 1rem; */
+  border-bottom-right-radius: 1rem;
 }
 
 .navigation .link {
-    color: white;
+  color: white;
 }
 
 .nav-brand {
-    display: inline;
-    margin-left: 1rem;
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-shadow: 0.125rem 0.125rem 1rem black;
-
+  display: inline;
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-shadow: 0.125rem 0.125rem 1rem black;
 }
 
 .navigation ul {
-    text-align: right;
+  text-align: right;
 }
 
 .link-active {
-    font-weight: bold;
-    text-shadow: 0.125rem 0.125rem 0.5rem white;
+  font-weight: bold;
+  text-shadow: 0.125rem 0.125rem 0.5rem white;
 }
 
 /* header */
 
 .hero {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .hero-image {
-    max-width: 25rem;
-    display: block;
-    margin: auto;
+  max-width: 25rem;
+  display: block;
+  margin: auto;
 }
 
 .hero .hero-heading {
-    text-align: center;
-    font-weight: bold;
-    color: var(--dark-grey);
-    padding-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--dark-grey);
+  padding-top: 1rem;
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 section {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 section h3 {
-    text-align: center;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 20px;
 }
 
 .section-off-white {
-    background-color: var(--off-white);
+  background-color: var(--off-white);
 }
 
 /* footer */
 
 footer {
-    /* background-color: var(--primary-color); */
-    background: linear-gradient(to right, #ff4b2b, #ff416c);
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
 
-    padding: 2rem 0;
-    text-align: center;
-    color: white;
-    border-top-left-radius: 1rem;
-
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 1rem;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 footer ul {
-    padding-inline-start: 0;
+  padding-inline-start: 0;
 }
 
 footer .footer-header {
-    font-weight: 1000;
+  font-weight: 1000;
 }
 
 .techstack {
-    color: var(--primary-color);
-    font-weight: bold;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 .blog-img {
-    max-width: 600px;
-    ;
+  max-width: 600px;
 }
 
 @media (max-width: 600px) {
+  .hero-image {
+    max-width: 400px;
+  }
 
-    .hero-image {
-        max-width: 400px;
+  .blog-img {
+    max-width: 400px;
+  }
+}
 
-    }
-
-    .blog-img {
-        max-width: 400px;
-
-    }
-
+.res-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
 }
